@@ -1,2 +1,4 @@
-# nmap_test
-scan open ports and version
+import subprocess
+ip = input("ip : ")
+subprocess.run(["ping", ip])
+subprocess.run(["nmap","-sV",ip])
