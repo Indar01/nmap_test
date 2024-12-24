@@ -1,2 +1,2 @@
-# nmap_test.py
+# nmap_test
 scan open ports and version
